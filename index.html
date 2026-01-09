@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion de Stock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Application de gestion de stock</h1>
+
+<div class="form">
+    <input type="text" id="name" placeholder="Nom du produit">
+    <input type="number" id="quantity" placeholder="Quantité">
+    <input type="number" id="price" placeholder="Prix">
+    <button onclick="addProduct()">Ajouter</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Produit</th>
+            <th>Quantité</th>
+            <th>Prix (€)</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="productList"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
