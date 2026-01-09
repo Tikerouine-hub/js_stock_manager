@@ -23,3 +23,8 @@ Application web développée en JavaScript permettant de gérer un stock de prod
 ## Lancer le projet
 
 Ouvrir le fichier `index.html` dans un navigateur.
+
+## Capture d’écran de l’application
+
+![Interface principale](images/stock_main.png)
+![Ajout d’un produit](images/stock_add.png)
